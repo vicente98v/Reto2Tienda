@@ -1,0 +1,62 @@
+.fruteria {
+    display: flex;
+    text-align: center;
+}
+
+.verduras {
+    display: flex;
+    flex-direction: row;
+    
+}
+.frutas {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    padding: 1em;
+    
+}
+
+
+
+
+#cesta {
+    display: flex;
+    background-color: grey;
+    height:120px;
+    width: 80%;
+    text-align: center;
+    padding:1vh;
+    margin: 0;
+    
+}
+
+#cesta > h2 {
+    line-height:120px;
+    text-align: left;
+    display: flex;
+}
+
+
+#ticket {
+    float: right;
+    background-color: #bfbfbf;
+    border: black;
+    width: 80%;
+    height: 100px;
+}
+#ticket > img {
+    height: 40px;
+    width: 40px;
+    padding: 1em;
+    
+}
+
+footer{
+    background-color: #123456;
+   
+}

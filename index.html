@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Showcase</title>
+</head>
+<body>
+    <header>
+        <h1>Mi tienda de furtas y verduras favorita</h1>
+    </header>
+    
+    <div class="fruteria">
+        <div class="productos">
+            <div class="verduras">
+                <div id="tomates">
+                    <img src="img/tomate.png" id="tomate" class="producto" name="0.8" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+                    
+                <div id="zanahorias">
+                    <img src="img/zanahoria.png" id="zanahoria" class="producto" name="0.69" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+                    
+                <div id="brocolis">
+                    <img src="img/brocoli.png" id="brocoli" class="producto" name="3.1" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)"> 
+                </div>
+
+                <div id="berenjenas">
+                    <img src="img/berenjena.png" id="berenjena" class="producto" name="2.4" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+                
+                <div id="aguacates">
+                    <img src="img/aguacate.png" id="aguacate" class="producto" name="4" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+
+            </div>
+
+            <div class="frutas" > <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
+                <div id="fresas">
+                    <img src="img/fresa.png" id="fresa" class="producto" name="3.5" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+
+                <div id="naranjas">
+                    <img src="img/naranja.png" id="naranja" class="producto" name="0.4" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)"> 
+                </div>
+
+                <div id="cerezas">
+                    <img src="img/cerezas.png" id="cereza" class="producto" name="1.8" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+
+                <div id="platanos">
+                    <img src="img/platanos.png" id="platano" class="producto" name="2.3" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+
+                <div id="manzanas">
+                    <img src="img/manzana.png" id="manzana" class="producto" name="1.98" draggable="true" ondragstart="drag(event)" ondragend="prueba(event)">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="cesta" >
+        <h2>Cesta de la compra</h2>
+        <div id="ticket" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div> 
+        <div id="price">
+            <p id="finalPrice">0.0</p>
+
+        </div>
+    </div>      
+   
+
+    
+
+    <footer>
+        Iconos diseñados por <a href="https://www.flaticon.es/autores/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/productdata.js"></script>
+</body>
+</html>
